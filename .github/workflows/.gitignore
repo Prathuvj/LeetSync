@@ -1,0 +1,28 @@
+# Ignore the folder with synced LeetCode submissions
+leetcode/
+
+# Ignore the timestamp file that tracks last fetch
+last_fetch.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# VSCode settings (if used)
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment/config files
+.env
+*.env
+
+# Logs
+*.log
+
+# Temporary files
+*.swp
+*.bak
+*.tmp
