@@ -1,4 +1,4 @@
-# 🧠 LeetCode-GitHub Sync
+# 🧠 LeetSync
 
 Automatically sync your **LeetCode accepted submissions** to this GitHub repository using **GitHub Actions**.  
 Supports multiple languages (e.g., C++, Python, Java, etc.) and organizes submissions by **difficulty** and **language**.
