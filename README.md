@@ -43,14 +43,6 @@ Go to your repository → **Settings** → **Secrets and variables** → **Actio
 
 ---
 
-### 4. Optional: Add `last_fetch.json` manually
-
-Only required before the first run. Create a file named `last_fetch.json` at the project root with this content:
-
-```json
-{
-  "last_fetched": "2000-01-01T00:00:00"
-}
 Alternatively, the script will generate it on first run if not found.
 
 ---
