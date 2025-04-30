@@ -123,9 +123,3 @@ This project uses a hybrid method:
 ## 📥 Contributing
 
 Pull requests are welcome! You can improve documentation, formatting, or functionality (like stats, charts, etc.).
-
----
-
-## 📜 License
-
-MIT License
