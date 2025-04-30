@@ -1,4 +1,4 @@
-# 🧠 LeetSync
+# 🧠 LeetCode-GitHub Sync
 
 Automatically sync your **LeetCode accepted submissions** to this GitHub repository using **GitHub Actions**.  
 Supports multiple languages (e.g., C++, Python, Java, etc.) and organizes submissions by **difficulty** and **language**.
@@ -43,11 +43,23 @@ Go to your repository → **Settings** → **Secrets and variables** → **Actio
 
 ---
 
+### 4. Optional: Add `last_fetch.json` manually
+
+Only required before the first run. Create a file named `last_fetch.json` at the project root with this content:
+
+```json
+{
+  "last_fetched": "2000-01-01T00:00:00"
+}
+```
+
 Alternatively, the script will generate it on first run if not found.
 
 ---
 
 ## 💻 Folder Structure
+
+```
 leetcode/
 ├── easy/
 │   ├── cpp/
@@ -56,6 +68,7 @@ leetcode/
 │   └── python/
 │       └── AddTwoNumbers.py
 ...
+```
 
 Each problem is saved as a separate file, organized by difficulty and language.
 
@@ -110,3 +123,9 @@ This project uses a hybrid method:
 ## 📥 Contributing
 
 Pull requests are welcome! You can improve documentation, formatting, or functionality (like stats, charts, etc.).
+
+---
+
+## 📜 License
+
+MIT License
